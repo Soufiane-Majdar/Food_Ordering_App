@@ -1,16 +1,13 @@
-import logo from './logo.svg';
+import logo from './assets/images/foody.png';
 import './App.css';
 
-// import components
-import Header from './components/Header';
+
+import Navigation from './navigartion';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Navigation />
     </div>
   );
 }
